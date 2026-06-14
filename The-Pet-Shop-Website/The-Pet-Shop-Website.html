@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws Pet Shop</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ff914d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            padding: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px;
+            background-color: #fff5e6;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        article {
+            width: 300px;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        article img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        aside {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        button {
+            background-color: #ff914d;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🐾 Happy Paws Pet Shop</h1>
+        <p>Your one-stop destination for <em>happy and healthy pets</em>.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pets">Pets</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <h2>Welcome to Happy Paws!</h2>
+            <p>Find adorable pets, quality food, and accessories.</p>
+            <img src="pet-shop-banner.png"
+                 alt="Happy pets in a pet shop"
+                 width="600">
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <h2 style="text-align:center; padding:20px;">Featured Pets</h2>
+
+            <div class="products">
+
+                <article>
+                    <img src="dog.png"
+                         alt="Golden Retriever puppy">
+                    <h3>Friendly Dog</h3>
+                    <p>Playful and loving companion for your family.</p>
+                    <button>Adopt Now</button>
+                </article>
+
+                <article>
+                    <img src="cat.png"
+                         alt="Cute Persian cat">
+                    <h3>Persian Cat</h3>
+                    <p>Elegant and affectionate indoor pet.</p>
+                    <button>Adopt Now</button>
+                </article>
+
+                <article>
+                    <img src="parrot.png"
+                         alt="Colorful pet parrot">
+                    <h3>Talking Parrot</h3>
+                    <p>Smart bird with a colorful personality.</p>
+                    <button>Adopt Now</button>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Aside Section -->
+        <aside>
+            <h3>Special Offer</h3>
+            <p>
+                Buy pet food worth $50 and get a
+                <strong>20% discount</strong> on accessories!
+            </p>
+        </aside>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 style="text-align:center;">Contact Us</h2>
+
+            <address style="text-align:center; padding:20px;">
+                Happy Paws Pet Shop<br>
+                123 Pet Street<br>
+                Animal City, AC 12345<br>
+                Phone: (123) 456-7890
+            </address>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Happy Paws Pet Shop. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
